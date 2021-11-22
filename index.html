@@ -50,12 +50,12 @@
     <a-scene
         vr-mode-ui="enabled: false;"
         renderer='antialias: true; alpha: true; precision: mediump;'
-        embedded arjs='trackingMethod: best; sourceType: webcam; debugUIEnabled: false;'>
+        embedded arjs='trackingMethod: best; sourceType: webcam; debugUIEnabled: true;'>
 
         <a-assets>
             <video src="video.mov"
                 preload="auto" id="vid" response-type="arraybuffer" loop
-                crossorigin webkit-playsinline autoplay muted playsinline>
+                autoplay muted playsinline>
             </video>
         </a-assets>
 
