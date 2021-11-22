@@ -56,14 +56,14 @@
         <a-assets>
             <video src="video.mov"
                 preload="auto" id="vid" response-type="arraybuffer" loop
-                autoplay muted playsinline>
+                autoplay playsinline>
             </video>
         </a-assets>
 
         <a-nft
             videohandler
             type='nft' url='https://sposlavskyi.github.io/web-ar/marker/track'
-            smooth="true" smoothCount="20" smoothTolerance="0.01" smoothThreshold="6"
+            smooth="true" smoothCount="15" smoothTolerance="0.01" smoothThreshold="5"
         >
             <a-video
                 src="#vid"
